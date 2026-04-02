@@ -9,7 +9,7 @@ import pandas as pd
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 BASE_URL = "https://www.nrl.com"
-OUTPUT_DIR = Path("NRL/python files/nrl_outputs/")
+OUTPUT_DIR = Path("nrl_outputs/")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DEFAULT_START_SEASON = 2015
